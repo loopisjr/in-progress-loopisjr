@@ -5,11 +5,22 @@ body {
   color: #ffffff;
   overflow: hidden;
 }
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
 
 .main-image {
   height: 50vh;
   width: 50vw;
   margin: 8vh 0;
+  min-width: 400px;
+  min-height: 200px;
 }
 
 .bottom-container {
@@ -54,4 +65,17 @@ body {
 .bottom-container-right p {
   margin-left: 0.5vw;
   align-self: center;
+}
+@media(max-width:700px){
+  .bottom-container {
+    position: absolute;
+    left: 10%;
+    right: 25%;
+    bottom: 1%;
+  }
+  h1{
+    position: relative;
+    bottom: 40px;
+    font-size: 1.8em;
+  }
 }
