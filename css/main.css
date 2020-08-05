@@ -10,18 +10,20 @@ body {
   height: 50vh;
   width: 50vw;
   margin: 8vh 0;
-  min-width: 250px;
 }
 
 .bottom-container {
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  position: relative;
+  right: 1.5rem;
 }
 
 .bottom-container-left {
   align-self: center;
-  width: 10vw;
+  width: 8vw;
   min-width: 100px;
   margin-right: 1.5vw;
 }
@@ -57,14 +59,30 @@ body {
   align-self: center;
 }
 @media(max-width:700px){
+  body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
   h1{
     font-size: 1.5em;
   }
   .bottom-container{
-  width: 75vw;
-  margin-top: 2rem;
+  width: 90vw;
+  position: relative;
+  bottom: 27vh;
+  }
+  .bottom-container-left{
+    width: 28vw;
   }
   .bottom-container-middle{
     margin: 0 0 0 8px;
+  }
+  .main-image {
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    bottom: 9vh;
   }
 }
