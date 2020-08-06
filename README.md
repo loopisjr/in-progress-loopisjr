@@ -19,5 +19,5 @@ Página web criada para o uso temporário informando sobre a construção do sit
 
 ### Layout Mobile
 <p align="center">
-  <img src="./assets/interface-mobile.svg" align="center" width="100%"/>
+  <img src="./assets/interface-mobile.svg" align="center" width="30%"/>
 </p>
